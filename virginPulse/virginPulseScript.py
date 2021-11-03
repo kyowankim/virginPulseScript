@@ -38,7 +38,7 @@ driver = My_Chrome(executable_path="C:\\Program Files\\Python39\\Scripts\\chrome
 print("Welcome: Executing the Virgin Pulse Script...")  
 
 #   METHOD TO TRACK TOP 3 HEALTHY HABITS, INPUT SLEEP HOURS AND INPUT STEPS
-count = 1
+
 def trackHabitSleepSteps(driver):
     # driver.get("https://app.member.virginpulse.com/?kc_idp_hint=national-grid#/healthyhabits")
     driver.get("https://app.member.virginpulse.com/?kc_idp_hint=national-grid#/healthyhabits")
